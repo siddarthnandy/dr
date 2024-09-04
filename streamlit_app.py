@@ -121,7 +121,7 @@ if prediction_right is not None or prediction_left is not None:
         c.drawString(150, height - 570, "1 week")
         c.drawString(250, height - 570, "3 weeks")
         c.drawString(350, height - 570, "5 weeks")
-        c.drawString(450, height - 570, "1 year (For general eye checkup)")
+        c.drawString(450, height - 570, "1 year (General checkup)")
 
         # Mark the appropriate referral time based on the predictions
         if max(prediction_right, prediction_left) == '4':
